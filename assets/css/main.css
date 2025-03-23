@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: "Inter", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -2919,10 +2919,6 @@ input, select, textarea {
 			position: relative;
 		}
 
-		header > p {
-			font-style: italic;
-		}
-
 		header > h1 + p {
 			font-size: 1.1rem;
 			margin-top: -0.5rem;
@@ -2946,7 +2942,7 @@ input, select, textarea {
 
 		header.major {
 			margin: 0 0 4rem 0;
-			text-align: center;
+			text-align: left;
 		}
 
 			header.major > :last-child {
@@ -2955,7 +2951,7 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				text-align: left;
 			}
 
 			header.major > .date {
@@ -3572,7 +3568,7 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1rem 1.75rem;
-			text-transform: uppercase;
+			text-transform: none;
 			visibility: visible;
 		}
 
@@ -3775,7 +3771,7 @@ input, select, textarea {
 			}
 
 		#main > footer {
-			text-align: center;
+			text-align: left;
 		}
 
 		#main > .post {
@@ -3793,7 +3789,7 @@ input, select, textarea {
 			}
 
 			#main > .post.featured {
-				text-align: center;
+				text-align: left;
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -3866,7 +3862,7 @@ input, select, textarea {
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
-				text-align: center;
+				text-align: left;
 			}
 
 				#main > .posts > article > :last-child {
